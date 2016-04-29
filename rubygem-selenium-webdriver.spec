@@ -4,7 +4,7 @@
 #
 Name     : rubygem-selenium-webdriver
 Version  : 2.52.0
-Release  : 8
+Release  : 9
 URL      : https://rubygems.org/downloads/selenium-webdriver-2.52.0.gem
 Source0  : https://rubygems.org/downloads/selenium-webdriver-2.52.0.gem
 Summary  : No detailed summary available
