@@ -4,7 +4,7 @@
 #
 Name     : rubygem-selenium-webdriver
 Version  : 2.53.1
-Release  : 10
+Release  : 11
 URL      : https://rubygems.org/downloads/selenium-webdriver-2.53.1.gem
 Source0  : https://rubygems.org/downloads/selenium-webdriver-2.53.1.gem
 Summary  : No detailed summary available
@@ -187,5 +187,5 @@ fi
 
 %files lib
 %defattr(-,root,root,-)
-/usr/lib64/ruby/gems/2.3.0/gems/selenium-webdriver-2.53.1/lib/selenium/webdriver/firefox/native/linux/amd64/x_ignore_nofocus.so
-/usr/lib64/ruby/gems/2.3.0/gems/selenium-webdriver-2.53.1/lib/selenium/webdriver/firefox/native/linux/x86/x_ignore_nofocus.so
+%exclude /usr/lib64/ruby/gems/2.3.0/gems/selenium-webdriver-2.53.1/lib/selenium/webdriver/firefox/native/linux/amd64/x_ignore_nofocus.so
+%exclude /usr/lib64/ruby/gems/2.3.0/gems/selenium-webdriver-2.53.1/lib/selenium/webdriver/firefox/native/linux/x86/x_ignore_nofocus.so
